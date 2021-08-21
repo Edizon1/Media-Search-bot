@@ -270,9 +270,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
-        elif query.data == "about":
-            buttons = [
-                
+        elif query.data == "about me":
+            buttons = 
+                [
                     InlineKeyboardButton('Update Channel', url='https://t.me/TGmovie9'),
                  ]   
                 
