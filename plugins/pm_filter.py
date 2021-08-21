@@ -31,7 +31,7 @@ async def filter(client, message):
                     [
                         [
                             InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1") 
-                                               )
+                                               
                         ]
                     ]
                 ),
