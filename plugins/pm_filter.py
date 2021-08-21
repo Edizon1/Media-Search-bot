@@ -30,7 +30,8 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1") 
+                                               )
                         ]
                     ]
                 ),
@@ -329,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
+                        InlineKeyboardButton('more botz', url="https://t.me/joinchat/0Z2-iPybfDcyYjg1"),
                         InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
                     ]
                     ]
