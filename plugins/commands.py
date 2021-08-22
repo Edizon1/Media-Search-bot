@@ -103,7 +103,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Update Channel 🎪", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("About Me", callback_data="about me")
                     ]
                 ]
             )
