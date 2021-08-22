@@ -197,4 +197,4 @@ async def bot_info(bot, message):
         ]
         ]
   
-message.reply(text="<b>Hi I am Cassandra Raill 😉 I am familiar to those who Watched  12 monkeys Series🐵 </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+await message.reply(text="<b>Hi I am Cassandra Raill 😉 I am familiar to those who Watched  12 monkeys Series🐵 </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
