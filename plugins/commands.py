@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1")
+                        InlineKeyboardButton("Update Channel 🎪", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -188,12 +188,13 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
-@Client.on_message(filters.command('about'))
+@Client.on_message(filters.command('about me'))
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('Owner🕵', url='https://t.me/Edizon1'),
+            InlineKeyboardButton('Request Movies 📺', url='https://t.me/malayalammoviestg1')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+  
+message.reply(text="<b>Hi I am Cassandra Raill 😉 I am familiar to those who Watched  12 monkeys Series🐵 </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
