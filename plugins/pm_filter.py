@@ -30,8 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1") 
-                                               
+                            InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/joinchat/0Z2-iPybfDcyYjg1")                  
                         ]
                     ]
                 ),
