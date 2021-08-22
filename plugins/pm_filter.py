@@ -272,10 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "about me":
             buttons = [
-                
-                    [InlineKeyboardButton('Update Channel', url='https://t.me/TGmovie9')]
-                 
-                 ]
+                [
+                    InlineKeyboardButton('Owner🕵', url='https://t.me/Edizon1'),
+                    InlineKeyboardButton('Request Movies🎥', url='https://t.me/malayalammoviestg1')
+                ]
+                ]
                 
                 
             await query.message.edit(text="<b>Hi I am Cassandra Raill 😉 I am familiar to those who Watched  12 monkeys Series🐵 </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -298,11 +299,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
-                    ]
-                    ]
+                [
+                    InlineKeyboardButton('Owner🕵', url='https://t.me/Edizon1'),
+                    InlineKeyboardButton('Request Movies🎥', url='https://t.me/malayalammoviestg1')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
@@ -330,11 +331,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{title}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('more botz', url="https://t.me/joinchat/0Z2-iPybfDcyYjg1"),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
-                    ]
-                    ]
+                [
+                    InlineKeyboardButton('Owner🕵', url='https://t.me/Edizon1'),
+                    InlineKeyboardButton('Request Movies🎥', url='https://t.me/malayalammoviestg1')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
