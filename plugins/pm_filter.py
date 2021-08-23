@@ -111,18 +111,18 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        nyva=BOT.get("username")
-        if not nyva:
+        amanda=BOT.get("username")
+        if not amanda:
             botusername=await client.get_me()
-            nyva=botusername.username
-            BOT["username"]=nyva
+            amanda=botusername.username
+            BOT["username"]=amanda 
         files = await get_filter_results(query=search)
         if files:
             for file in files:
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{amanda}?start=edizon_-_-_-_{file_id}")]
                 )
         else:
             return
