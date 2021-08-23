@@ -280,7 +280,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 
-        elif query.data.startswith("subinps"):
+        elif query.data.startswith("edizon"):
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
             for files in filedetails:
